@@ -7,8 +7,8 @@ public class Hello {
 		sayHello("Jack");
 	}
 	
-	static void sayHello(String name) {
-		System.out.println("Hello my name is "+name);
+	static void sayHello(Object object) {
+		System.out.println("Hello my name is "+object.toString());
 	}
 	
 	static void sayHello() {
